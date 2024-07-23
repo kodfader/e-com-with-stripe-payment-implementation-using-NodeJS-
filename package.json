@@ -1,0 +1,26 @@
+{
+  "name": "e-com",
+  "version": "1.0.0",
+  "description": "An e-commerce app with stripe payment method implemnted",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodfader/e-com-with-stripe-payment-implementation-using-NodeJS-.git"
+  },
+  "author": "Amro Soliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodfader/e-com-with-stripe-payment-implementation-using-NodeJS-/issues"
+  },
+  "homepage": "https://github.com/kodfader/e-com-with-stripe-payment-implementation-using-NodeJS-#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "stripe": "^16.4.0"
+  }
+}
